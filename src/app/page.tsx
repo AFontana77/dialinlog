@@ -89,6 +89,25 @@ const FAQS = [
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "DialInLog",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "iOS, Android",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "description": "Espresso profiles for 300+ roasters and blends. Log your shots, track dial-in notes, and find what works for your setup.",
+            "url": "https://www.dialinlog.com"
+          })
+        }}
+      />
       <SiteNav />
       <main id="main-content" className="pt-20">
 
