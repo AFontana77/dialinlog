@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "About DialInLog",
-  description: "The story behind DialInLog. Search 5,000+ espresso roasters. Log your shots. Dial in your perfect cup.",
+  description: "The story behind DialInLog. Search 176+ espresso beans and roasters. Log your shots. Dial in your perfect cup.",
 };
 
 export default function AboutPage() {

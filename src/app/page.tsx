@@ -5,8 +5,8 @@ import { Database, BookOpen, BarChart3, Star, ArrowRight, Download, CheckCircle 
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "DialInLog — Search 5,000+ espresso roasters",
-  description: "DialInLog has 5,000+ espresso roasters and single-origin beans with tasting notes and roast profiles. Log your shots, track grind settings, and dial in your perfect espresso.",
+  title: "DialInLog — Search 176+ espresso beans and roasters",
+  description: "DialInLog has 176+ espresso beans and roasters with tasting notes and roast profiles. Log your shots, track grind settings, and dial in your perfect espresso.",
 };
 
 const FEATURES = [
@@ -29,7 +29,7 @@ export default function HomePage() {
               Search 5,000+ coffees and roasters. Log your own.
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Search 5,000+ espresso roasters.
+              Search 176+ espresso beans and roasters.
               <br />
               <span className="text-amber-700">Log your shots.</span>
             </h1>
