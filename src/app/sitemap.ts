@@ -12,5 +12,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/privacy`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/terms`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/support`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${BASE}/shaken-espresso`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/espresso-chart`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/espresso-recipes`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/how-to-dial-in-espresso`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/espresso-with-milk`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ];
 }
