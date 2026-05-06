@@ -22,12 +22,13 @@ const SECTIONS = [
     n: '02',
     title: 'Information We Collect',
     body: (
-      <ul className="space-y-2 list-disc pl-5">
-        <li><strong>Account email address.</strong> Optional, for cross-device sync only.</li>
-        <li><strong>Espresso shot logs you create.</strong> Stored locally on your device and, if you have an account, in our secure cloud database (Supabase).</li>
-        <li><strong>Purchase confirmation.</strong> Via RevenueCat when you unlock premium features. We do not receive your payment details.</li>
-        <li><strong>Device identifiers.</strong> Used by RevenueCat to associate your purchase with your device.</li>
-      </ul>
+      <>
+        <p className="mb-3">We collect the minimum data needed to operate the app:</p>
+        <ul className="space-y-2 list-disc pl-5">
+          <li><strong>Espresso shot logs you create.</strong> Stored locally on your device only. This data is never uploaded to any server.</li>
+          <li><strong>Purchase data.</strong> When you unlock the full app, RevenueCat receives a transaction ID and device identifier to verify and restore your purchase. We do not receive your payment details.</li>
+        </ul>
+      </>
     ),
   },
   {
@@ -35,8 +36,8 @@ const SECTIONS = [
     title: 'How We Use Your Information',
     body: (
       <>
-        <ul className="space-y-2 list-disc pl-5 mb-3">
-          <li>To operate the app and sync your data across devices (if you have an account)</li>
+        <ul className="space-y-1 list-disc pl-5 mb-3">
+          <li>To operate the app and display your logged shots</li>
           <li>To restore your purchase on new devices</li>
           <li>To respond to support requests</li>
         </ul>
@@ -49,8 +50,7 @@ const SECTIONS = [
     title: 'Third-Party Services',
     body: (
       <ul className="space-y-2 list-disc pl-5">
-        <li><strong>Supabase.</strong> Secure cloud database for optional account sync. Hosted on AWS US-East.</li>
-        <li><strong>RevenueCat.</strong> In-app purchase management and subscription tracking.</li>
+        <li><strong>RevenueCat.</strong> In-app purchase management. They receive device identifiers and transaction data to process and restore purchases.</li>
         <li><strong>Apple App Store / Google Play.</strong> App distribution and payment processing.</li>
       </ul>
     ),
@@ -58,7 +58,7 @@ const SECTIONS = [
   {
     n: '05',
     title: 'Data Deletion',
-    body: <p>You may delete your account and all associated cloud data at any time from the app settings. We will delete your data within 30 days of the request. Local device data is deleted when you uninstall the app.</p>,
+    body: <p>Your data is stored only on your device. It is permanently deleted when you uninstall the app. We do not store any of your logged data on our servers.</p>,
   },
   {
     n: '06',
