@@ -15,7 +15,7 @@ export function GET() {
       apps: [],
       details: [
         {
-          appID: 'APPLE_TEAM_ID.com.dialinlog.app',
+          appID: 'APPLE_TEAM_ID.com.anvilroad.dialinlog',
           paths: ['*'],
         },
       ],
